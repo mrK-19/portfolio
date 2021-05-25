@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
+    <title>mrK's portfolio</title>
+</head>
+<body>
+    <div class="wave">
+        <canvas id="waveCanvas"></canvas>
+        <canvas id="waveCanvas2"></canvas>
+        <canvas id="waveCanvas3"></canvas>
+    </div>
+    </div>
+    <div id="navigation">
+        <div class="nav-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+    </div>
+    <div id="nav-content">
+        <div class="close-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </div>
+        <div class="wrapper">
+          <h2 class="section-heading">Menu</h2>
+          <nav>
+            <ul>
+              <li><a data-text="Home" href="#home">Home</a></li>
+              <li><a data-text="Profile" href="#profile">Profile</a></li>
+              <li><a data-text="Works" href="#works">Works</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div id="home">
+        <div class="quote-wrapper">
+            <h3>
+                Novice Programmer
+                <br>
+                - My efforts will bear fruit someday -
+            </h3>
+            <p>
+                Thank you for coming to my portfolio.
+                <br>
+                I'm glad if you're interested in my works.
+            </p>
+        </div>
+        <div class="fluid"></div>
+    </div>
+
+    <div id="profile">
+        <div class="title-wrapper">
+            <h2>PROFILE</h2>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="img-wrapper">
+                <img src="img/bg_home.jpg">
+                <p>
+                    A novice programmer from Gumma, Japan 
+                    who belongs to Engineering Department 
+                    at the university in Japan.
+                    <br>
+                    Striving to become a top engineer.
+                </p>
+                <h2>mrK</h2>
+            </div>
+            <div class="skills-wrapper">
+                <div class="skill-title-wrapper">
+                    <p>SKILLS</p>
+                </div>
+                <div class="skill-wrapper skillA">
+                    <img src="img/C.svg">
+                    <p>I often write original codes.</p>
+                </div>
+                <div class="skill-wrapper skillB">
+                    <img src="img/C++.svg">
+                    <p>I can write a basic code with class.</p>
+                </div>
+                <div class="skill-wrapper skillC">
+                    <div>
+                        <img src="img/html5.svg">
+                        <img src="img/css3.svg">
+                    </div>
+                    <p>I can code simple homepages.</p>
+                </div>
+                <div class="skill-wrapper skillD">
+                    <img src="img/javascript.svg">
+                    <p>I can code using DOM operation.</p>
+                </div>
+                <div class="skill-wrapper skillE">
+                    <img src="img/php.svg">
+                    <p>I'm now learning PHP grammar.</p>
+                </div>
+                <div class="skill-wrapper skillF">
+                    <img src="img/python.svg">
+                    <p>I usually use it to create an AI.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="works">
+        <div class="title-wrapper">
+            <h2>WORKS</h2>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="container-left work1"></div>
+                <div class="container-right">
+                    <div class="container-right-top">
+                        <div>
+                            <h1>DragonQuest AI</h1>
+                            <p>
+                                This is a code which reproduces 
+                                the battle against Dragonlord in 
+                                DragonQuest I. I made an AI to 
+                                defeat Dragonlord 100%.
+                            </p>
+                            <a href="#">See Codes</a>
+                        </div>
+                    </div>
+                    <div class="container-footer">
+                        <div class="footer-img-wrapper">
+                            <p>Used Language</p>
+                            <img src="img/C.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-reverse">
+                <div class="container-right-reverse">
+                    <div class="container-right-top">
+                        <div>
+                            <h1>Anime Face Recognition</h1>
+                            <p>
+                                I made an anime character identification program 
+                                by using a KNN algorithm. In my code, 
+                                I selected 3 characters in "The Promised Neverland".
+                            </p>
+                            <a href="#">See Codes</a>
+                        </div>
+                    </div>
+                    <div class="container-footer-reverse">
+                        <div class="footer-img-wrapper footer-img-wrapper-reverse">
+                            <p>Used Language</p>
+                            <img src="img/python.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-left-reverse work2"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="container-left work3"></div>
+                <div class="container-right">
+                    <div class="container-right-top">
+                        <div>
+                            <h1>Voice Recognition</h1>
+                            <p>
+                                These codes can read wav files and 
+                                identify speakers by extracting voice 
+                                features called MFCC. I took 5 voice 
+                                actresses' voices and identify them 
+                                in my codes.
+                            </p>
+                            <a href="#">See Codes</a>
+                        </div>
+                    </div>
+                    <div class="container-footer">
+                        <div class="footer-img-wrapper">
+                            <p>Used Language</p>
+                            <img src="img/python.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-reverse">
+                <div class="container-right-reverse">
+                    <div class="container-right-top">
+                        <div>
+                            <h1>Tic-Tac-Toe</h1>
+                            <p>
+                                I made a simple tic-tac-toe to learn Javascript. 
+                                You can play it with an enemy bot. I want to create 
+                                tic-tac-toe AI instead of the bot.
+                            </p>
+                            <a href="tic-tac-toe.html">PLAY</a>
+                        </div>
+                    </div>
+                    <div class="container-footer-reverse">
+                        <div class="footer-img-wrapper footer-img-wrapper-reverse">
+                            <p>Used Language</p>
+                            <img src="img/javascript.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-left-reverse work4"></div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <img src="img/copyright.svg">
+        <p>2021 mrK</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
