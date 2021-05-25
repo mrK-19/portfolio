@@ -11,3 +11,7 @@ This code is for clarifying the enemy state balance.
 I proved that player can't defeat enemy with certain HP and Attack.
 Therefore, the difficulty can be adjusted by changing enemy HP and Attack within the range of limitation.
 You can also check the limitation border by executing this code.
+
+Ex. DragonQuestAI.pdf
+I made slides to summarize the content of my study.
+These slides make it much easier for you to understand the concept of Q-learning.
