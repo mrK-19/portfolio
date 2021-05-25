@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 targets = pd.read_csv("classified.csv")
 images = np.empty((0, 256), int)
 for i in range(100):
-    jpg = f"images/{i}.jpg"
+    jpg = f"anime_img/{i}.jpg"
     img = cv2.imread(jpg, cv2.IMREAD_GRAYSCALE)
     hist = np.histogram(img.ravel(), 256, [0, 256])
     images = np.append(images, np.array([hist[0]]), axis = 0)
