@@ -17,4 +17,4 @@ If the character exists, the value is "1", otherwise "0".
 3. anime_img > 0.jpg, 1.jpg, ..., 99.jpg
 Norman, Emma, and Ray exist in some images randomly.
 Note that each image is 600px * 600px. All images must be the same size.
-/* These images' copyright is "The Promised Neverland". I just took them on the Internet. */
+/* These images' copyright belongs to "The Promised Neverland". I just took them on the Internet. */
