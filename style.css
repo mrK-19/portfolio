@@ -427,6 +427,7 @@ canvas{
     .skill-title-wrapper{
         width: 90%;
         margin: 70px auto 20px;
+	background-color: transparent;
     }
     .skill-wrapper{
         display: flex;
@@ -443,9 +444,6 @@ canvas{
     }
 }
 @media only screen and (max-width: 500px){
-    .skill-title-wrapper{
-	background-color: none;
-    }
     .skill-wrapper img{
         width: 30px;
         height: 30px;
