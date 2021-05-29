@@ -443,6 +443,9 @@ canvas{
     }
 }
 @media only screen and (max-width: 500px){
+    .skill-title-wrapper{
+	background-color: none;
+    }
     .skill-wrapper img{
         width: 30px;
         height: 30px;
