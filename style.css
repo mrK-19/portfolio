@@ -510,6 +510,9 @@ section{
     letter-spacing: 2px;
     border-radius: 5px;
 }
+.container-reverse .container-right-top a{
+    margin-left: 290px;
+}
 .container-footer{
     text-align: right;
 }
@@ -548,7 +551,6 @@ section{
     min-height: 300px;
     max-height: 400px;
     z-index: 2;
-    text-align: right;
 }
 .container-left-reverse{
     width: 40%;
@@ -581,6 +583,12 @@ section{
     background-position: center;
     background-size: contain;
     background-color: #f2f0e9;
+}
+.work5{
+    background: url("img/DNNTTS_GUI.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #ffffff;
 }
 
 
