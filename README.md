@@ -3,5 +3,3 @@ This is mrK's Github. I'm an undergraduate student in Japan, majoring in compute
 
 You can see my projects and skills in the link below.
 https://mrk-19.github.io/portfolio/
-
-test
