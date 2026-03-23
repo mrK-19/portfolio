@@ -1,5 +1,5 @@
 # Github
-This is mrK's Github. I'm an undergraduate student in Japan, majoring in computer science and engineering.
+This is mrK's Github. I'm a graduate student in Japan, majoring in computer science and engineering.
 
 You can see my projects and skills in the link below.
 https://mrk-19.github.io/portfolio/
